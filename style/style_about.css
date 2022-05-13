@@ -1,0 +1,936 @@
+/* About Start */
+#about {
+    font-family: 'Nunito';
+    color: #234CAD;
+}
+
+/* KIRI START */
+#about .container-about .row-about .col-kiri .content .text-content .main-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+#about .container-about .row-about .col-kiri .content .text-content .body-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#about .container-about .row-about .col-kiri .content .button {
+    box-sizing: border-box;
+    border: 2px solid #234CAD;
+    background-color: #FFFF;
+    border-radius: 32.5px;
+    color: #234CAD;
+    /*Padding: Atas, Kanan, Bawah, kiri */
+    padding: 15px 40px 15px 41px;
+    margin-top: 1em;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* KIRI END */
+
+/* KANAN START */
+
+/* Daily Standup Start */
+#about .container-about .row-about .col-kanan .card-about .card-standup {
+    width: 276px;
+    height: 160px;
+    background-color: #FFFF;
+    border-radius: 32.5px;
+    /*Padding: Atas, Kanan, Bawah, kiri */
+    /* padding: 20px 20px 20px 20px; */
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-body-standup {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Icon Start */
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-body-standup .icon {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 2px solid #234CAD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-body-standup .icon .card-icon {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Icon End */
+
+/* Text Content Start */
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-body-standup .text-content {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-body-standup .text-content .title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-body-standup .text-content .information {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+/* Text Content End */
+
+/* Participants Start */
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-footer-standup {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-footer-standup .participants {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Participants Item */
+/* Person 1 */
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-footer-standup .participants .person1 {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-footer-standup .participants .person1 label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Person 2 */
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-footer-standup .participants .person2 {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-footer-standup .participants .person2 label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Person 3 */
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-footer-standup .participants .person3 {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 60px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-footer-standup .participants .person3 label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Other */
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-footer-standup .participants .other {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-standup .card-footer-standup .participants .other label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Participants End */
+
+/* Daily Standup End */
+
+/* Daily Emails Start */
+#about .container-about .row-about .col-kanan .card-about .card-emails {
+    width: 276px;
+    height: 160px;
+    background-color: #FFFF;
+    border-radius: 32.5px;
+    /*Padding: Atas, Kanan, Bawah, kiri */
+    /* padding: 20px 20px 20px 20px; */
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-body-emails {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Icon Start */
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-body-emails .icon {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 2px solid #234CAD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-body-emails .icon .card-icon {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Icon End */
+
+/* Text Content Start */
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-body-emails .text-content {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-body-emails .text-content .title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-body-emails .text-content .information {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+/* Text Content End */
+
+/* Participants Start */
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-footer-emails {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-footer-emails .participants {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Participants Item */
+/* Person 1 */
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-footer-emails .participants .person1 {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-footer-emails .participants .person1 label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Person 2 */
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-footer-emails .participants .person2 {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-footer-emails .participants .person2 label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Person 3 */
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-footer-emails .participants .person3 {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 60px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-footer-emails .participants .person3 label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Other */
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-footer-standup .participants .other {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-emails .card-footer-standup .participants .other label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Participants End */
+
+/* Daily Emails End */
+
+/* Marketing Call Start */
+#about .container-about .row-about .col-kanan .card-about .card-marketing {
+    width: 276px;
+    height: 160px;
+    background-color: #FFFF;
+    border-radius: 32.5px;
+    /*Padding: Atas, Kanan, Bawah, kiri */
+    /* padding: 20px 20px 20px 20px; */
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-body-marketing {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Icon Start */
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-body-marketing .icon {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 2px solid #234CAD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-body-marketing .icon .card-icon {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Icon End */
+
+/* Text Content Start */
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-body-marketing .text-content {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-body-marketing .text-content .title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-body-marketing .text-content .information {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+/* Text Content End */
+
+/* Participants Start */
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-footer-marketing {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-footer-marketing .participants {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Participants Item */
+/* Person 1 */
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-footer-marketing .participants .person1 {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-footer-marketing .participants .person1 label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Person 2 */
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-footer-marketing .participants .person2 {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-marketing .card-footer-marketing .participants .person2 label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Participants End */
+
+/* Marketing Call End */
+
+/* Project Meeting Start */
+#about .container-about .row-about .col-kanan .card-about .card-project {
+    width: 276px;
+    height: 160px;
+    background-color: #FFFF;
+    border-radius: 32.5px;
+    /*Padding: Atas, Kanan, Bawah, kiri */
+    /* padding: 20px 20px 20px 20px; */
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-project .card-body-project {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Icon Start */
+#about .container-about .row-about .col-kanan .card-about .card-project .card-body-project .icon {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 2px solid #234CAD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-project .card-body-project .icon .card-icon {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Icon End */
+
+/* Text Content Start */
+#about .container-about .row-about .col-kanan .card-about .card-project .card-body-project .text-content {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-project .card-body-project .text-content .title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-project .card-body-project .text-content .information {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+/* Text Content End */
+
+/* Participants Start */
+#about .container-about .row-about .col-kanan .card-about .card-project .card-footer-project {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-project .card-footer-project .participants {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Participants Item */
+/* Person 1 */
+#about .container-about .row-about .col-kanan .card-about .card-project .card-footer-project .participants .person1 {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-project .card-footer-project .participants .person1 label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Person 2 */
+#about .container-about .row-about .col-kanan .card-about .card-project .card-footer-project .participants .person2 {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-project .card-footer-project .participants .person2 label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Person 3 */
+#about .container-about .row-about .col-kanan .card-about .card-project .card-footer-project .participants .person3 {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 60px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-project .card-footer-project .participants .person3 label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Other */
+#about .container-about .row-about .col-kanan .card-about .card-project .card-footer-project .participants .other {
+    box-sizing: border-box;
+    background: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 32.5px;
+    width: 37px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-project .card-footer-project .participants .other label {
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Participants End */
+
+/* Project Meeting End */
+
+/* Presentation Start */
+#about .container-about .row-about .col-kanan .card-about .card-presentation {
+    width: 276px;
+    height: 160px;
+    background-color: #FFFF;
+    border-radius: 32.5px;
+    /*Padding: Atas, Kanan, Bawah, kiri */
+    /* padding: 20px 20px 20px 20px; */
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-presentation .card-body-presentation {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Icon Start */
+#about .container-about .row-about .col-kanan .card-about .card-presentation .card-body-presentation .icon {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 2px solid #234CAD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-presentation .card-body-presentation .icon .card-icon {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Icon End */
+
+/* Text Content Start */
+#about .container-about .row-about .col-kanan .card-about .card-presentation .card-body-presentation .text-content {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-presentation .card-body-presentation .text-content .title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-presentation .card-body-presentation .text-content .information {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+/* Text Content End */
+
+/* Presentation End */
+
+/* Sales Call Start */
+#about .container-about .row-about .col-kanan .card-about .card-sales {
+    width: 276px;
+    height: 160px;
+    background-color: #FFFF;
+    border-radius: 32.5px;
+    /*Padding: Atas, Kanan, Bawah, kiri */
+    /* padding: 20px 20px 20px 20px; */
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-sales .card-body-sales {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Icon Start */
+#about .container-about .row-about .col-kanan .card-about .card-sales .card-body-sales .icon {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 2px solid #234CAD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-sales .card-body-sales .icon .card-icon {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Icon End */
+
+/* Text Content Start */
+#about .container-about .row-about .col-kanan .card-about .card-sales .card-body-sales .text-content {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-sales .card-body-sales .text-content .title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#about .container-about .row-about .col-kanan .card-about .card-sales .card-body-sales .text-content .information {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+/* Text Content End */
+
+/* Sales Call End */
+
+/* Mask Start */
+#about .container-about .row-about .col-kanan .card-about .mask {
+    width: 100%;
+    height: 100%;
+    background: #F2F6FF;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+/* Mask End */
+
+/* KANAN END */
+
+/* About End */
+
+/* RESPONSIVE */
+@media only screen and (min-width: 992px) {
+
+    /* About Start */
+    #about .container-about .row-about {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* Grid Start */
+    #about .container-about .row-about .col-kanan .card-about .component .grid-container {
+        /* background-color:red; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px 20px 0px 20px;
+
+    }
+
+    #about .container-about .row-about .col-kanan .card-about .component .grid-container .grid-item {
+        padding: 10px;
+    }
+
+    /* Grid End */
+    #about .container-about .row-about .col-kiri {
+        /* border: 1px solid #ccc; */
+        width: 40%;
+    }
+
+    #about .container-about .row-about .col-kanan {
+        /* border: 1px solid #ccc; */
+        width: 50%;
+    }
+
+    #about .container-about .row-about .col-kiri .content {
+        width: 60%;
+    }
+
+    /* KANAN START */
+    #about .container-about .row-about .col-kanan .card-about {
+        width: 575px;
+        height: 575px;
+    }
+
+    #about .container-about .row-about .col-kanan .card-about .component {
+        width: 627px;
+        height: 555px;
+        top: 60px;
+        left: 50px;
+        position: absolute;
+    }
+
+    #about .container-about .row-about .col-kanan .card-about .mask {
+        width: 100%;
+        height: 100%;
+        background: #F2F6FF;
+        position: relative;
+        border-radius: 60px;
+    }
+
+    /* KANAN END */
+
+    /* About End */
+}
+
+@media only screen and (max-width: 800px) {
+
+    /* About Start */
+    #about .container-about .row-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #about .container-about .row-about .col-kiri {
+        /* border: 1px solid #ccc; */
+        width: 100%;
+    }
+
+    /* KANAN START */
+    #about .container-about .row-about .col-kanan {
+        /* border: 1px solid #ccc; */
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    #about .container-about .row-about .col-kanan .card-about {
+        width: 100%;
+    }
+
+    #about .container-about .row-about .col-kanan .card-about .component {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #F2F6FF;
+        border-radius: 60px;
+        padding-bottom: 1em;
+    }
+
+    #about .container-about .row-about .col-kanan .card-about .card-standup {
+        width: 276px;
+        height: 160px;
+        background-color: #FFFF;
+        border-radius: 32.5px;
+        /*Padding: Atas, Kanan, Bawah, kiri */
+        /* padding: 20px 20px 20px 20px; */
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* KANAN END */
+
+    /* About End */
+}

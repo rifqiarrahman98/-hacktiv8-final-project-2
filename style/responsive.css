@@ -1,0 +1,219 @@
+@media all and (max-width: 600px) {
+    h1 {
+        font-size: 40px !important;
+    }
+
+    .banner-right .upload-box-with-text {
+        width: 300px;
+    }
+
+    .banner .banner-right .chat-box {
+        width: 300px;
+        gap: 10px !important;
+    }
+
+    .banner .banner-right .chat-box .initial {
+        width: 60px;
+        height: 60px;
+    }
+
+    .banner .banner-right .chat-box .center-chat-box {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .banner .banner-right .chat-box .center-chat-box small {
+        font-size: 10px;
+        line-height: 26px;
+    }
+
+    .banner .banner-right .chat-box .center-chat-box small span {
+        display: none;
+        font-size: 10px;
+        line-height: 26px;
+    }
+
+    .banner .banner-right .chat-box .center-chat-box small:after {
+        content: '...';
+        font-size: 10px;
+        line-height: 26px;
+    }
+
+    /* 
+    */
+    /* 
+    */
+
+    .offcanvas {
+        width: 75%;
+    }
+
+    /*  
+    */
+    /* 
+    */
+
+    .feature .feature-text h5 {
+        font-size: 17px;
+    }
+
+    /* 
+    */
+    /*
+    */
+
+    .section-b-text br {
+        content: ' ';
+    }
+
+    .product-feature-1-left .row-1 .chat-box {
+        width: 308px;
+        gap: 10px !important;
+    }
+
+    .product-feature-1-left .row-1 .chat-box .initial {
+        font-size: 20px;
+        line-height: 29px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .product-feature-1-left .row-1 .chat-box .center-chat-box {
+        font-size: 15px;
+    }
+
+    .product-feature-1-left .row-1 .chat-box .center-chat-box small {
+        font-size: 11px;
+    }
+
+    .product-feature-1-left .row-1 .chat-box .center-chat-box span {
+        display: none;
+    }
+
+    .product-feature-1-left .row-1 .chat-box .center-chat-box small:after {
+        content: '...';
+    }
+
+    .product-feature-1-left .row-2 .chat-box {
+        width: 268px;
+        gap: 15px !important;
+    }
+
+    .product-feature-1-left .row-2 .chat-box .initial {
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    .product-feature-1-left .row-2 .chat-box .center-chat-box {
+        font-size: 13px;
+    }
+
+    .product-feature-1-left .row-2 .chat-box .center-chat-box small {
+        font-size: 10px;
+    }
+
+    .product-feature-1-left .row-2 .chat-box .center-chat-box span {
+        display: none;
+    }
+
+    .product-feature-1-left .row-2 .chat-box .center-chat-box small:after {
+        content: '...';
+    }
+
+    .product-feature-1-left .row-3 .chat-box .initial {
+        font-size: 12px;
+        line-height: 29px;
+    }
+
+    .product-feature-1-left .row-3 .chat-box {
+        width: 220px;
+        gap: 15px !important;
+    }
+
+    .product-feature-1-left .row-3 .chat-box .center-chat-box {
+        font-size: 10px;
+    }
+
+    .product-feature-1-left .row-3 .chat-box .center-chat-box span {
+        display: none;
+    }
+
+    .product-feature-1-left .row-3 .chat-box .center-chat-box small:after {
+        content: '...';
+    }
+
+    .product-feature-2 {
+        height: auto;
+    }
+
+    .product-feature-2 .chat-box {
+        width: 300px;
+        gap: 10px !important;
+    }
+
+    .product-feature-2 .chat-box .initial {
+        width: 60px;
+        height: 60px;
+    }
+
+    .product-feature-2 .chat-box .center-chat-box {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .product-feature-2 .chat-box .center-chat-box small {
+        font-size: 10px;
+        line-height: 26px;
+    }
+
+    .product-feature-2 .chat-box .center-chat-box small span {
+        display: none;
+        font-size: 10px;
+        line-height: 26px;
+    }
+
+    .product-feature-2 .chat-box .center-chat-box small:after {
+        content: '';
+        font-size: 10px;
+        line-height: 26px;
+    }
+
+    /* 
+    */
+    /* 
+    */
+
+
+    .about-right .box-container .column-2 {
+        display: none !important;
+    }
+
+    /* 
+    */
+    /* 
+    */
+
+    #pricing .container-pricing .row-pricing .content .card-pricing .card-body {
+        width: 350px !important;
+        height: 330px !important;
+    }
+
+    /* 
+    */
+    /* 
+    */
+
+    .contact-newsletter .contact-newsletter-form {
+        width: 300px;
+        height: 65px;
+    }
+
+    .contact-newsletter .contact-newsletter-text h1 {
+        font-size: 35px !important;
+    }
+
+    .contact-newsletter .contact-newsletter-form input {
+        font-size: 15px;
+    }
+
+}

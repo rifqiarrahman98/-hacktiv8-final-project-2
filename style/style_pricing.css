@@ -1,0 +1,243 @@
+/* Pricing Start */
+#pricing {
+    font-family: 'Nunito';
+    color: #234CAD;
+}
+
+/* Text Content Start */
+#pricing .container-pricing .row-pricing .content .text-content {
+    text-align: center;
+}
+
+#pricing .container-pricing .row-pricing .content .text-content .main-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+#pricing .container-pricing .row-pricing .content .text-content .body-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Text Content End */
+
+/* Card Start */
+
+/* Card 1 Start */
+#pricing .container-pricing .row-pricing .content .card-pricing .card-1 .card-body {
+    width: 380px;
+    height: 360px;
+    background: #F2F6FF;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-1 .card-body .card-content {
+    text-align: center;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-1 .card-body .card-content .subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-1 .card-body .card-content .price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 48px;
+    margin-top: 35px;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-1 .card-body .card-content .body-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 15px;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-1 .card-body .card-content .learn-button .button {
+    color: #234CAD;
+    background: #FFFFFF;
+    border-radius: 37.5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    border: 0px;
+    box-sizing: border-box;
+    /*Padding: Atas, Kanan, Bawah, kiri */
+    padding: 18px 71px 17px 72px;
+    margin-top: 35px;
+}
+
+/* Card 1 End */
+
+/* Card 2 Start */
+#pricing .container-pricing .row-pricing .content .card-pricing .card-2 .card-body {
+    width: 380px;
+    height: 360px;
+    border-radius: 60px;
+    border: 3px solid #234CAD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-2 .card-body .card-content {
+    text-align: center;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-2 .card-body .card-content .subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-2 .card-body .card-content .price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 48px;
+    margin-top: 35px;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-2 .card-body .card-content .body-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 15px;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-2 .card-body .card-content .start-button .button {
+    color: #234CAD;
+    background: #FFFFFF;
+    border-radius: 37.5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    border: 3px solid #234CAD;
+    box-sizing: border-box;
+    /*Padding: Atas, Kanan, Bawah, kiri */
+    padding: 18px 71px 17px 72px;
+    margin-top: 35px;
+}
+
+/* Card 2 End */
+
+/* Card 3 Start */
+#pricing .container-pricing .row-pricing .content .card-pricing .card-3 .card-body {
+    width: 380px;
+    height: 360px;
+    background: #F2F6FF;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-3 .card-body .card-content {
+    text-align: center;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-3 .card-body .card-content .subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-3 .card-body .card-content .price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 48px;
+    margin-top: 35px;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-3 .card-body .card-content .body-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 15px;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-3 .card-body .card-content .learn-button .button {
+    color: #234CAD;
+    background: #FFFFFF;
+    border-radius: 37.5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    border: 0px;
+    box-sizing: border-box;
+    /*Padding: Atas, Kanan, Bawah, kiri */
+    padding: 18px 71px 17px 72px;
+    margin-top: 35px;
+}
+
+/* Card 3 End */
+
+/* Card End */
+
+/* Pricing End */
+
+/* RESPONSIVE */
+@media only screen and (min-width: 992px) {
+    /* Pricing Start */
+
+    /* Card Start */
+    #pricing .container-pricing .row-pricing .content .card-pricing {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 75px;
+    }
+
+    /* Card End */
+
+    /* Pricing End */
+}
+
+@media only screen and (max-width: 800px) {
+    /* Pricing Start */
+
+    /* Card Start */
+    #pricing .container-pricing .row-pricing .content .card-pricing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px 20px 10px;
+    }
+
+    #pricing .container-pricing .row-pricing .content .card-pricing .card-body {
+        margin-top: 50px;
+        width: 180px;
+        height: 160px;
+    }
+
+    #pricing .container-pricing .row-pricing .content .card-pricing .card-1 .card-body .card-content .subtitle {
+        font-style: normal;
+        font-weight: 400;
+
+        line-height: 40px;
+    }
+
+    /* Card End */
+
+    /* Pricing End */
+}

@@ -1,0 +1,433 @@
+:root {
+    --bg-blue: #F2F6FF;
+    --font-blue: #234cad;
+    --font-time: #5a79c2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    color: var(--font-blue) !important;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+/* Header Start */
+.nav-link {
+    font-weight: 500;
+}
+
+.hamburger-button {
+    border: 0;
+    background-color: var(--bg-blue);
+    width: 50px;
+    height: 50px;
+}
+
+.hamburger-line {
+    width: 20px;
+    height: 2px;
+    background-color: var(--font-blue);
+    display: block;
+    border-radius: 1.5px;
+}
+
+.header-center {
+    margin-left: 190px;
+}
+
+.header-center ul li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.header-right button {
+    width: 135px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.login-button {
+    border-radius: 25px;
+    border: var(--font-blue) 2px solid;
+    background-color: white;
+}
+
+.signup-button {
+    border-radius: 25px;
+    border: 0;
+    background-color: var(--bg-blue);
+}
+
+/* Header End */
+
+/* 
+ */
+
+/* Banner Start */
+.banner {
+    margin-top: 80px;
+    background-color: var(--bg-blue);
+    border-radius: 60px;
+}
+
+.banner-left {
+    margin-right: 20px;
+}
+
+.banner-left .banner-heading {
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.banner-left .banner-text {
+    font-size: 15px;
+}
+
+.banner .get-app-button {
+    border-radius: 50px;
+    width: 200px;
+    height: 65px;
+    border: var(--font-blue) 2px solid;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.banner-right {
+    margin-top: 20px;
+}
+
+.banner-right-left {
+    margin-right: 50px;
+}
+
+.banner-right .row {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+/* Banner Right - Right Start */
+.banner-right-right {
+    position: relative;
+    padding-top: 43px;
+    margin-left: 30px;
+}
+
+/* Banner Right Row 2 */
+.banner-right-right .row-2 {
+    position: absolute;
+    margin-top: -5px;
+    left: -110px;
+}
+
+/* Banner Right Row 3 */
+.banner-right-right .row-3 {
+    position: absolute;
+    top: 355px;
+    left: 5px;
+}
+
+/* Banner Right Row 4 */
+.banner-right-right .row-4 {
+    position: absolute;
+    top: 480px;
+    left: -30px;
+}
+
+/* Banner End */
+
+/* 
+*/
+
+/* Feature Start */
+.feature .circle-with-svg {
+    width: 100px;
+    height: 100px;
+}
+
+.feature .feature-text h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+}
+
+.feature .feature-text h5 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+/* Feature End */
+
+/* 
+ */
+
+/* Section B Start */
+
+/* Product Feature 1 Start */
+.product-feature-1-left {
+    width: 575px;
+    height: 575px;
+    border-radius: 60px;
+    background-color: var(--bg-blue);
+}
+
+.product-feature-1-left .row-1 .chat-box {
+    width: 438px;
+    height: 125px;
+}
+
+.product-feature-1-left .row-1 .chat-box .initial {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    width: 75px;
+    height: 75px;
+}
+
+.product-feature-1-left .row-1 .chat-box .initial-container p {
+    top: 2px;
+    right: 6px;
+}
+
+.product-feature-1-left .row-1 .chat-box .center-chat-box {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.product-feature-1-left .row-1 .chat-box .center-chat-box small {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.product-feature-1-left .row-1 .chat-box .end-chat-box {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.product-feature-1-left .row-2 .chat-box {
+    opacity: 0.9;
+}
+
+.product-feature-1-left .row-3 .chat-box {
+    opacity: 0.8;
+    width: 262px;
+    height: 75px;
+}
+
+.product-feature-1-left .row-3 .chat-box .initial {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    width: 45px;
+    height: 45px;
+}
+
+.product-feature-1-left .row-3 .chat-box .initial-container p {
+    width: 12px;
+    height: 12px;
+    top: 2px;
+    right: 6px;
+    font-size: 4px;
+    line-height: 6px;
+}
+
+.product-feature-1-left .row-3 .chat-box .center-chat-box {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.product-feature-1-left .row-3 .chat-box .center-chat-box small {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 16px;
+}
+
+.product-feature-1-left .row-3 .chat-box .end-chat-box {
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 10px;
+}
+
+.product-feature-1-right h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.product-feature-1-right p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Product Feature 1 End */
+
+/* Section B text */
+.section-b-text h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+/* Product Feature 2 Start */
+.product-feature-2 {
+    height: 575px;
+    border-radius: 60px;
+    background-color: var(--bg-blue);
+}
+
+.add-shadow {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
+    backdrop-filter: blur(6px);
+}
+
+/* Section B End */
+
+/*  
+*/
+
+/* Section C Start */
+.about-right {
+    width: 575px;
+    height: 575px;
+    border-radius: 60px;
+    background-color: var(--bg-blue);
+    overflow: hidden;
+}
+
+.about-right .box-container {
+    padding-left: 60px !important;
+}
+
+.about-right .schedule-box {
+    right: -108px;
+}
+
+/* Section D Start */
+.contact-newsletter {
+    background-color: var(--bg-blue);
+    border-radius: 60px;
+}
+
+.contact-newsletter h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.contact-newsletter .contact-newsletter-form {
+    width: 500px;
+    height: 65px;
+}
+
+.contact-newsletter .contact-newsletter-form input {
+    border-radius: 17.5px;
+    border: 0;
+    height: 65px;
+    flex: 1;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+::placeholder {
+    color: var(--font-blue);
+    opacity: 0.5;
+}
+
+
+.contact-newsletter .contact-newsletter-form button {
+    right: 20px;
+    border-radius: 12.5px;
+    border: 0;
+    background-color: var(--font-blue);
+    height: 45px;
+    width: 45px;
+}
+
+/* Footer Start */
+footer h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+}
+
+footer p,
+li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+/* 
+ */
+.banner .get-app-button:hover {
+    opacity: 0.8;
+    transform: translateY(-5px);
+    transition: 500ms;
+}
+
+.banner .get-app-button:active {
+    opacity: 1;
+    transform: translateY(5px);
+}
+
+
+.get-app-button:hover {
+    background-color: var(--bg-blue);
+    transition: 200ms;
+}
+
+.hamburger-button:hover {
+    transition: 50ms;
+    border: 2px solid #234CAD;
+}
+
+.login-button:hover {
+    background-color: var(--bg-blue);
+    transition: 200ms;
+}
+
+.signup-button:hover {
+    border: 2px solid #234CAD;
+    transition: 50ms;
+}
+
+#about .container-about .row-about .col-kiri .content .button:hover {
+    background-color: var(--bg-blue);
+    transition: 200ms;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-1 .card-body .card-content .learn-button .button:hover {
+    border: 3px solid #234CAD;
+    transition: 200ms;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-2 .card-body .card-content .start-button .button:hover {
+    background-color: var(--bg-blue);
+    transition: 200ms;
+}
+
+#pricing .container-pricing .row-pricing .content .card-pricing .card-3 .card-body .card-content .learn-button .button:hover {
+    border: 3px solid #234CAD;
+    transition: 200ms;
+}
